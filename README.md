@@ -42,6 +42,6 @@ Se crearon los siguientes componentes:
 Esta práctica permitió aplicar el uso de **React**, **React Router** y **Tailwind CSS** para construir una interfaz fiel a un diseño en Figma, asegurando una correcta organización del contenido y adaptabilidad a diferentes dispositivos.
 
 ## Enlace al Proyecto
-[Repositorio en GitHub](URL_DEL_REPOSITORIO)
+[Repositorio en GitHub](https://github.com/elenadiazp/modo-dark-light-system)
 
 
