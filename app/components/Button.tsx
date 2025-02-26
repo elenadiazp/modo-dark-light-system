@@ -7,22 +7,22 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white rounded-lg flex items-center gap-2"
+      className="p-2 bg-button-bg-light dark:bg-button-bg-dark text-white dark:text-body-bg-dark rounded-lg flex items-center gap-2"
     >
       {theme === "light" ? (
         <>
-          <Sun className="w-5 h-5" />
-          <span>Light Mode</span>
+          <Sun className="w-12 h-5" />
+         
         </>
       ) : theme === "dark" ? (
         <>
-          <Moon className="w-5 h-5" />
-          <span>Dark Mode</span>
+          <Moon className="w-12 h-5" />
+         
         </>
       ) : (
         <>
-          <Monitor className="w-5 h-5" />
-          <span>Auto</span>
+          <Monitor className="w-12 h-5" />
+          
         </>
       )}
     </button>

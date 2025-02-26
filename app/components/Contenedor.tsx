@@ -5,7 +5,7 @@ import InfoCard from "./InfoCard";
 function Contenedor() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center min-h-screen">
+      <div className="flex flex-col items-center justify-center min-h-scree mb-5">
         <Header />
         <div className="container p-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
